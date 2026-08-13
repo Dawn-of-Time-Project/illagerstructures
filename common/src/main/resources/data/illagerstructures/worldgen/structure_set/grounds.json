@@ -16,7 +16,10 @@
     { "structure": "illagerstructures:illager_camp", "weight": 3 },
     { "structure": "illagerstructures:balloon_tower", "weight": 3 },
     { "structure": "illagerstructures:illager_fort", "weight": 1 },
-    { "structure": "illagerstructures:smeltery", "weight": 1 }
+    { "structure": "illagerstructures:smeltery", "weight": 1 },
+    { "structure": "illagerstructures:illager_mole_maintenance", "weight": 3 },
+    { "structure": "illagerstructures:illager_balloon", "weight": 5 },
+    { "structure": "illagerstructures:illager_mole_surface", "weight": 3 }
   ],
   "placement": {
     "type": "minecraft:random_spread",

@@ -1,10 +1,10 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#illagerstructures:monks",
+  "biomes": "#illagerstructures:grounds",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "spawn_overrides": {},
-  "start_pool": "illagerstructures:monastery",
+  "start_pool": "illagerstructures:illager_mole_surface",
   "size": 1,
   "start_height": {
     "absolute": 0

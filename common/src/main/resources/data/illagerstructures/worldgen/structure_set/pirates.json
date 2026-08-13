@@ -3,7 +3,8 @@
     { "structure": "illagerstructures:illager_floating_outpost", "weight": 3 },
     { "structure": "illagerstructures:illager_galleon", "weight": 3 },
     { "structure": "illagerstructures:submarine", "weight": 3 },
-    { "structure": "illagerstructures:ocean_citadel", "weight": 1 }
+    { "structure": "illagerstructures:ocean_citadel", "weight": 1 },
+    { "structure": "illagerstructures:illager_small_sub", "weight": 5 }
   ],
   "placement": {
     "type": "minecraft:random_spread",
