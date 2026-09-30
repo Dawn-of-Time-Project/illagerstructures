@@ -4,9 +4,19 @@
     {
       "rolls": { "min": 3, "max": 6 },
       "entries": [
-        { "type": "minecraft:item", "name": "minecraft:stick", "weight": 55, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 8 } }] },
-        { "type": "minecraft:item", "name": "minecraft:flint", "weight": 50, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }] },
-        { "type": "minecraft:item", "name": "minecraft:string", "weight": 45, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 6 } }] }
+        { "type": "minecraft:item", "name": "minecraft:stick", "weight": 40, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 8 } }] },
+        { "type": "minecraft:item", "name": "minecraft:flint", "weight": 25, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }] },
+        { "type": "minecraft:item", "name": "minecraft:string", "weight": 35, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 6 } }] },
+        { "type": "minecraft:item", "name": "minecraft:feather", "weight": 28, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }] },
+        { "type": "minecraft:item", "name": "minecraft:wheat", "weight": 28, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 5 } }] },
+        { "type": "minecraft:item", "name": "minecraft:bowl", "weight": 22, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "minecraft:mushroom_stew", "weight": 18 },
+        { "type": "minecraft:item", "name": "minecraft:charcoal", "weight": 25, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }] },
+        { "type": "minecraft:item", "name": "minecraft:coal", "weight": 22, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }] },
+        { "type": "minecraft:item", "name": "minecraft:carved_pumpkin", "weight": 12 },
+        { "type": "minecraft:item", "name": "minecraft:leather", "weight": 20, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "minecraft:rabbit_hide", "weight": 18, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "minecraft:rabbit_foot", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }] }
       ]
     },
     {
@@ -19,15 +29,14 @@
         { "type": "minecraft:item", "name": "minecraft:cooked_mutton", "weight": 22, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }] },
         { "type": "minecraft:item", "name": "minecraft:cooked_rabbit", "weight": 20, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }] },
         { "type": "minecraft:item", "name": "minecraft:rabbit_stew", "weight": 15 },
+        { "type": "minecraft:item", "name": "minecraft:honey_bottle", "weight": 15 },
+        { "type": "minecraft:item", "name": "minecraft:glistering_melon_slice", "weight": 12, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }] },
         { "type": "minecraft:item", "name": "minecraft:torch", "weight": 22, "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }] },
         { "type": "minecraft:item", "name": "minecraft:flower_pot", "weight": 18 },
         { "type": "minecraft:item", "name": "minecraft:hay_block", "weight": 18, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }] },
         { "type": "minecraft:item", "name": "minecraft:arrow", "weight": 22, "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }] },
         { "type": "minecraft:item", "name": "minecraft:white_wool", "weight": 20, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }] },
-        { "type": "minecraft:item", "name": "minecraft:gray_wool", "weight": 20, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }] },
-        { "type": "minecraft:item", "name": "minecraft:stone_axe", "weight": 18, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.8 } }] },
-        { "type": "minecraft:item", "name": "minecraft:stone_pickaxe", "weight": 18, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.8 } }] },
-        { "type": "minecraft:item", "name": "minecraft:stone_sword", "weight": 18, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.8 } }] }
+        { "type": "minecraft:item", "name": "minecraft:gray_wool", "weight": 20, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }] }
       ]
     },
     {
@@ -36,9 +45,7 @@
         { "type": "minecraft:item", "name": "minecraft:campfire", "weight": 10 },
         { "type": "minecraft:item", "name": "minecraft:iron_bars", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }] },
         { "type": "minecraft:item", "name": "minecraft:shield", "weight": 8, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.3, "max": 0.9 } }] },
-        { "type": "minecraft:item", "name": "minecraft:crossbow", "weight": 7, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.3, "max": 0.9 } }] },
-        { "type": "minecraft:item", "name": "minecraft:wooden_sword", "weight": 9, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.8 } }] },
-        { "type": "minecraft:item", "name": "minecraft:wooden_axe", "weight": 9, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.8 } }] }
+        { "type": "minecraft:item", "name": "minecraft:crossbow", "weight": 7, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.3, "max": 0.9 } }] }
       ]
     },
     {
@@ -55,7 +62,10 @@
         { "type": "minecraft:item", "name": "minecraft:copper_ingot", "weight": 2, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }] },
         { "type": "minecraft:item", "name": "minecraft:grindstone", "weight": 1 },
         { "type": "minecraft:item", "name": "minecraft:iron_horse_armor", "weight": 1 },
-        { "type": "minecraft:item", "name": "minecraft:flint_and_steel", "weight": 2, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.5, "max": 1.0 } }] }
+        { "type": "minecraft:item", "name": "minecraft:flint_and_steel", "weight": 2, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.5, "max": 1.0 } }] },
+        { "type": "minecraft:item", "name": "minecraft:diamond", "weight": 1, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }] },
+        { "type": "minecraft:item", "name": "minecraft:book", "weight": 2, "functions": [{ "function": "minecraft:enchant_randomly" }] },
+        { "type": "minecraft:item", "name": "minecraft:experience_bottle", "weight": 3, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }] }
       ]
     },
     {
@@ -68,6 +78,105 @@
         { "type": "minecraft:item", "name": "minecraft:anvil", "weight": 1 },
         { "type": "minecraft:item", "name": "minecraft:diamond_horse_armor", "weight": 1 },
         { "type": "minecraft:item", "name": "minecraft:compass", "weight": 2 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.25 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:iron_helmet", "weight": 1, "functions": [
+          { "function": "minecraft:set_damage", "damage": { "min": 0.3, "max": 0.3 } }
+        ]},
+        { "type": "minecraft:item", "name": "minecraft:iron_chestplate", "weight": 1, "functions": [
+          { "function": "minecraft:set_damage", "damage": { "min": 0.3, "max": 0.3 } }
+        ]},
+        { "type": "minecraft:item", "name": "minecraft:iron_leggings", "weight": 1, "functions": [
+          { "function": "minecraft:set_damage", "damage": { "min": 0.3, "max": 0.3 } }
+        ]},
+        { "type": "minecraft:item", "name": "minecraft:iron_boots", "weight": 1, "functions": [
+          { "function": "minecraft:set_damage", "damage": { "min": 0.3, "max": 0.3 } }
+        ]}
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.35 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 1, "functions": [
+          { "function": "minecraft:enchant_randomly" },
+          { "function": "minecraft:set_damage", "damage": { "min": 0.4, "max": 0.4 } }
+        ]}
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.20 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:chainmail_helmet", "weight": 1, "functions": [
+          { "function": "minecraft:enchant_randomly" },
+          { "function": "minecraft:set_damage", "damage": { "min": 0.8, "max": 0.8 } }
+        ]},
+        { "type": "minecraft:item", "name": "minecraft:chainmail_chestplate", "weight": 1, "functions": [
+          { "function": "minecraft:enchant_randomly" },
+          { "function": "minecraft:set_damage", "damage": { "min": 0.8, "max": 0.8 } }
+        ]},
+        { "type": "minecraft:item", "name": "minecraft:chainmail_leggings", "weight": 1, "functions": [
+          { "function": "minecraft:enchant_randomly" },
+          { "function": "minecraft:set_damage", "damage": { "min": 0.8, "max": 0.8 } }
+        ]},
+        { "type": "minecraft:item", "name": "minecraft:chainmail_boots", "weight": 1, "functions": [
+          { "function": "minecraft:enchant_randomly" },
+          { "function": "minecraft:set_damage", "damage": { "min": 0.8, "max": 0.8 } }
+        ]}
+      ]
+    },
+    {
+      "rolls": { "min": 1, "max": 2 },
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.30 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:book", "weight": 3, "functions": [
+          { "function": "minecraft:enchant_randomly" }
+        ]},
+        { "type": "minecraft:item", "name": "minecraft:bow", "weight": 3, "functions": [
+          { "function": "minecraft:enchant_randomly" },
+          { "function": "minecraft:set_damage", "damage": { "min": 0.8, "max": 0.8 } }
+        ]},
+        { "type": "minecraft:item", "name": "minecraft:experience_bottle", "weight": 4, "functions": [
+          { "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }
+        ]}
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.40 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:wooden_sword", "weight": 3, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.8 } }] },
+        { "type": "minecraft:item", "name": "minecraft:wooden_axe", "weight": 3, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.8 } }] },
+        { "type": "minecraft:item", "name": "minecraft:stone_sword", "weight": 4, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.8 } }] },
+        { "type": "minecraft:item", "name": "minecraft:stone_axe", "weight": 4, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.8 } }] },
+        { "type": "minecraft:item", "name": "minecraft:stone_pickaxe", "weight": 3, "functions": [{ "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.8 } }] }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.03 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:netherite_axe", "weight": 1, "functions": [
+          { "function": "minecraft:enchant_randomly" },
+          { "function": "minecraft:set_damage", "damage": { "min": 0.0005, "max": 0.0005 } }
+        ]}
       ]
     }
   ]
