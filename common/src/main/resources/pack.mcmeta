@@ -1,6 +1,8 @@
 {
     "pack": {
-        "pack_format": 48,
-        "description": "A mod that expend upon the Illager lore with new exciting structures!"
+        "description": "${mod_name}",
+        "pack_format": 75,
+        "min_format": [75, 0],
+        "max_format": [94, 1]
     }
 }

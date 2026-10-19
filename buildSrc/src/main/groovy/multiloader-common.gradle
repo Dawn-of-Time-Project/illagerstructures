@@ -81,6 +81,10 @@ jar {
     }
 }
 
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs.addAll(['-Xmaxerrs', '1000'])
+}
+
 processResources {
     def expandProps = [
             'version'                      : version,
