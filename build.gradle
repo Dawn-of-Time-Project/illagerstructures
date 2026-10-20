@@ -27,7 +27,6 @@ configure([project(":fabric"), project(":neoforge")]) {
             client = true
             server = true
             changelogType = "markdown"
-
         }
     }
 }
